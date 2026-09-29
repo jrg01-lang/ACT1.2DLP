@@ -1,0 +1,8 @@
+Flask
+gunicorn
+
+python -m flask --app app routes
+
+flask --app app run --no-reload
+
+python -m flask --app app run
